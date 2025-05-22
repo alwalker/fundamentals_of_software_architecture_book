@@ -1,0 +1,3 @@
+= Fundamentals Of Software Architecture Book Club
+
+Notes, schedule, ideas, etc for working thru the https://fundamentalsofsoftwarearchitecture.com/[Fundamentals Of Software Architecture] book.
