@@ -1,0 +1,16 @@
+= Architectural Thinking
+
+Architecture vs Design:
+
+* I like Dream house comparison.
+* Architecture comes before design.
+* Things that cost less in terms of trade offs tend to be design choices
+* Things that are hard to change tend to be architecture choices
+
+Love the stuff you know pyramid and the concept that its a constant cycle of moving things up the pyramid as well as things falling down it.
+
+DON'T DO YOUR TWENTY MINUTES AT LUNCH
+
+Wild difference between infra and dev in terms of the "march of technology". Reiterate kubernetes argument. Java GUIs forgotten vs AWK is 50 years old.
+
+I like the idea of frequent high quality proof of concepts. But how do you scale this to make it manageable.
