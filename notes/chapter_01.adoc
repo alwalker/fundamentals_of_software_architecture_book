@@ -1,0 +1,27 @@
+= Introduction
+
+Referring to fundamental rules as axioms makes me happy
+
+Kubernetes is a bad example of change over time/tieing architecture to technology. It's literally just the principles of linux applied at cloud scale.
+
+Engineering vs craft. Software doesn't stand on it's own/isn't just for looking at. It has a purpose and has to meet certain standards to be useable/safe. 
+
+"Reliability, rigor, and analysis": It's not just made well, its verified.
+
+Change in perspective can come from practices not just technology changes. See agile/devops.
+
+Architecture "characteristics" are your "-ilities". Scaleability, etc.
+
+Trade off analysis should be continuous
+
+"why is more important than how" -> design of design
+
+
+*The Breadth First vs Depth First Argument*
+
+* No one needs to know a 37th way to turn http requests into sql statements
+* Software can do lots of things, they're designed to do a few (ted neward)
+* See kubernetes argument above
+* Despite this no one knows BASH/PS
+
+I'm not sure I agree with this on more than a spiritual level. You should learn new things, but focus on things common to everyone around you. E.g. everyone should have a solid grasp of HTTP.
