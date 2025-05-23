@@ -1,0 +1,11 @@
+= Modularity
+
+----
+Energy must be added to preserve order
+----
+
+I like this analogy both in terms of you maintaining skills and supporting projects long term.
+
+I normally don't like when software tries to be mathy, but I feel like at least measuring the different kinds of coupling with abstractness/instability/distance would be worth looking into.
+
+Connascence was new to me, and the fact that my spell checker doesn't like it surely says something...But I like the very high level smell of "if changing this means changing that then it may be bad"

@@ -1,4 +1,10 @@
+= TODO
+
 == Chapter 2
 
 * Thought works radar and build my own
 * Look into go fitness functions
+
+== Chapter 3
+
+* Look for go solutions for measure modularity metrics
