@@ -8,6 +8,7 @@ Architecture vs Design:
 * Things that are hard to change tend to be architecture choices
 
 Love the stuff you know pyramid and the concept that its a constant cycle of moving things up the pyramid as well as things falling down it.
+image:images/fig_2-6.png[]
 
 DON'T DO YOUR TWENTY MINUTES AT LUNCH
 
