@@ -8,3 +8,10 @@
 == Chapter 3
 
 * Look for go solutions for measure modularity metrics
+
+== Chapter 4
+
+* Look into ISO capability list
+* Start list of new project questions
+* Plan schedule to introduce Katas
+* Katas may make good high level AI practice
