@@ -1,0 +1,14 @@
+= Identifying Architecture Characteristics
+
+Look out for composite characteristics and don't just focus on a single "-ility".  These often hide in explicit requirements.
+
+*Example:* +
+_"this has to be done by X time every Y period"_ Doesn't just mean build the fastest thing to do X; it also has to not crash when the burst of work comes in the closer you get to X. Or if work steadily increases the closer you get to X then the architecture needs to not just scale but scale the most cost efficiently given a very predictable workload. 
+
+For example, our Kimai instance that does nothing 99% of the time then at 10:30 every Monday morning everyone in the company submits their time. 
+
+Assuming code is functionally correct seems to be a trend so far. I really like this idea and it's something I struggle with and am trying to improve on. See: potential new old people AI project at work.
+
+While I previously was super excited to see _configurability_ be something important to mention previously I was surprised to see so much "effort" in this kata be dedicated to _customizability_. I feel like the example here would have fit neatly into a "design decision".
+
+"no wrong answers only expensive ones"
