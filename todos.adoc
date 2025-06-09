@@ -15,3 +15,13 @@
 * Start list of new project questions
 * Plan schedule to introduce Katas
 * Katas may make good high level AI practice
+
+== Chapter 6
+
+* Lookup "first contentful paint" and "first cpu idle"
+* Find go cyclomatic complexity test
+** run it on container orchestrator
+* Look into "Building Evolutionary Architectures" book
+* Find tool for go fitness "distance from main" function
+* Find go equivalent of JDepend
+* Do any of the Netflix monkies apply to go code bases?

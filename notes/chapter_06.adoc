@@ -1,0 +1,15 @@
+= Measuring and Governing Architecture Characteristics
+
+You can't just decide what your metrics/characteristics/kpi's are you have to also decide what they mean and standardize on that definition. Re: DDD and "ubiquitous language".
+
+Even common metrics can be complex. E.g. you can measure average response time but if 99% of your routes don't matter the important stuff gets drowned out. Make sure you're actually measuring what matters.
+
+Cyclomatic Complexity is cool again!
+
+I think the argument for agility/testability/deployability. being structural is weak. In the year of our lord 2025 this is more than structural, its fundamental. To keep using the house analogy calling these things out as important sounds as silly as saying "you should be lumber that's not rotten".
+
+I like the idea that DevOps is an evolution of CI. The comparison to agile/scrum is probably still better, but the idea that its really just the adoption of some tools isn't incorrect.
+
+Problems like cyclic dependencies can also be rooted out be good local dev hygiene. Used to no one checked in code without at least running a clean build first. But, I guess that doesn't scale to enormous code bases.
+
+Remember Ralph's "unit" tests.
