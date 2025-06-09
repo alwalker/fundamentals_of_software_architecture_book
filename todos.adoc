@@ -25,3 +25,7 @@
 * Find tool for go fitness "distance from main" function
 * Find go equivalent of JDepend
 * Do any of the Netflix monkies apply to go code bases?
+
+== Chapter 7
+
+* Keep an eye out for those diagrams on choosing quanta

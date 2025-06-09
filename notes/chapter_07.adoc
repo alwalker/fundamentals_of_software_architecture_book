@@ -1,0 +1,13 @@
+= The Scope of Architectural Characteristics
+
+Break things down into "quantums" based on the following criteria.
+
+**Independent deployment from other parts of the architecture**. This one is easy, things that are "physically" coupled are part of the same quantum.
+
+**High functional cohesion**. Does large percentage of the code in this namespace/module/whatever refer to/have to deal with itself?
+
+**Low external implementation static coupling**. Does this deployed code share a common set of resources and/or does it depend on the same set of other services as another quantum? 
+
+**Synchronous communication with other quanta**. I don't think this one is a good dividing line for scope. 
+
+Cloud scoping just feels like choosing between IaaS and PaaS. 
