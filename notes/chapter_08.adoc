@@ -1,0 +1,15 @@
+= Component-Based Thinking
+
+Logical vs Physical diagram seems like Component vs Service.
+
+Components are mirrored in namespacing/file structure
+
+Don't skip iterating thru a logical diagram. See fig 8-6
+
+Think about both the workflow and actor/action patterns
+
+Love the calling out of the "entity trap" pattern and admitting that there are now better tools to do that than building new software.
+
+Mixed feelings about user stories being the unit of work when iterating thru the logic diagram creation. I think that puts you in the mindset of implementation too much. But I'm not sure what the alternative would be.
+
+The Law of Demeter just seems like you should always use event driven, ESB, CQRS, for everything. You don't have to have any knowledge of anything (other than the "bus") if you just emit all your events. I do like the call out in the example that this doesn't remove coupling, it just moves it to where it makes sense.
