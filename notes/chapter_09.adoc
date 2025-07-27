@@ -1,0 +1,22 @@
+= Foundations
+
+I recognize that dependency diagram from ACS
+
+I appreciate the acknowledgement that architecture wise single page apps are very similar to Winforms
+
+"Top Level Partitioning" -> What is your highest level of abstraction:
+- Technical: layers
+- Domain: modules
+
+Style Characteristics 
+* Component Topology -> layers, modules, etc
+* Physical Architecture -> distributed vs monolithic
+* Deployment -> monolithic or distributed
+* Communication -> mono: internal, distributed: http
+* Data Topology -> mongo single db or distributed many db
+
+Strongly disagree with pretty much all of the monolithic descriptions. Especially around data stores.
+
+the teamp comps are wierd
+
+Falacy #11 "obersvability is optional" = tdd rant
