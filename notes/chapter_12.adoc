@@ -1,0 +1,9 @@
+= Pipeline Architecture Style
+
+Unix pipes at scale
+
+Troubleshooting is hard
+
+Easily distributed
+
+If you're considering this style there's probably an off the shelf solution
