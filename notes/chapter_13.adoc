@@ -1,0 +1,15 @@
+= Microkernel Architecture Style
+
+aka plugins. Not really a microkernel because of the core concept
+
+Example: insurance software that has per state rules
+
+Core can just be happy path
+
+I think most of the time this is just interfaces
+
+Seem like a good use case for GRPC
+
+Most of the downsides mentioned here are solved by half way decent package management. Anything from Gitlab's crazy omnibus package to Helm. Or just build it in to the core application
+
+Have to be careful about plugin dependencies
