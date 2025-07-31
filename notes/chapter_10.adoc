@@ -1,0 +1,15 @@
+= Layered Architecture Style
+
+This is n-tier
+
+"holistic agility" means you need to be aware of how "agile" each layer is. E.g. is it easier to change the UI layer vs the data layer? Is this ok?
+
+Closed vs Open layers. Can you bypass certain layers? Think the PLC layer from the stone
+
+The Sinkhole pattern. This is almost every piece of software I ever wrote. It should be scaffolded but I still think its a good idea because its readable and every one knows it.
+
+Limited code reuse makes it easier to switch out layers
+
+Changing one "entity" often requires changing code in every layer
+
+Why can't we have multiple layers at the same level. Think PLC or different data access technologies.
