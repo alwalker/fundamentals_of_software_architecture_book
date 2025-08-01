@@ -1,5 +1,7 @@
 = The Modular Monolith Architecture Style
 
+image:images/fig_11-1.png[]
+
 All functionality (aka all layers) for each domain in one module. 
 
 Keep code reuse to a minimum

@@ -1,5 +1,7 @@
 = Layered Architecture Style
 
+image:images/fig_10-1.png[]
+
 This is n-tier
 
 "holistic agility" means you need to be aware of how "agile" each layer is. E.g. is it easier to change the UI layer vs the data layer? Is this ok?

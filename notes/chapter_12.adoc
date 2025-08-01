@@ -1,5 +1,7 @@
 = Pipeline Architecture Style
 
+image:images/fig_12-1.png[]
+
 Unix pipes at scale
 
 Troubleshooting is hard

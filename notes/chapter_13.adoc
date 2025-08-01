@@ -1,5 +1,7 @@
 = Microkernel Architecture Style
 
+image:images/fig_13-1.png[]
+
 aka plugins. Not really a microkernel because of the core concept
 
 Example: insurance software that has per state rules
