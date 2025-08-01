@@ -1,0 +1,61 @@
+= Summary of Monolithic Style Chapters
+
+== Foundations
+
+I do really appreciate the acknowledgement that SPA apps are the same thing as WinForms apps.  Insert Matt O story about Angular/mimeo/etc.
+
+"Top level partitioning" was a new term to me. It makes sense, just never thought of it that way or that decision being that important/one you could even make.
+
+I particularly disagree with mono means slow deployments. This is governed by the size of your application. I have shipped multiple deployments in a week of battleship grey windows apps.
+
+Do any of these team structures really work. Re: DR and Premise shakeups.
+
+Insert TDD rant here
+
+== Layered
+
+Why not multiple layers per "level". This goes to my data technology rant. We live in a world where lots of these is common. Also PLC's
+
+"Holistic agility" is a good way to think about things.
+
+Sinkhole pattern is life. 
+
+Bring up JV's funny ticket story
+
+== Modulith
+
+How does the mediator pattern not result in cyclic dependencies?
+
+Fitness functions work well here.
+
+== Pipelines
+
+Is anyone doing this on their own? I feel like there's enough generic solutions for this out there.
+
+== Micro Kernel
+
+This is not a micro kernel, it is a modular kernel.
+
+The idea of "core can just be the happy path" is interesting.
+
+What's the tipping point for this just being interfaces?
+
+The downsides of this architecture all hang on you know not knowing package management is a thing.
+
+Insert AWS CLI + SSM story here.
+
+== Summary
+
+I was surprised to see that every chapter found some way of saying "don't reuse code". I can't decide if this is bad or this is a more modern equivalent of realizing comments are a code smell.
+
+I disagree with pretty much all of the deployment, ha/performance, and data topology comments made across these styles. 
+
+*HA:* This is wholly dependent on the quality of your code/design. As long as things are idempotent/stateless/etc you can run as many of them as are needed to meet your uptime guarantees. E.g. One per AZ/region/whatever. And nothing about any of the architectures here dictates that you can't do this. I don't deny that these architectures make it easier to make those mistakes; but they are just that; mistakes.
+
+*Performance*: Once you've solved the above performance becomes trivial. Just make more of whatever your monolith is.
+
+*Data Topologies*: Nothing about these styles dictates a single database. Or even a database at all. Object storage is a thing now, and finally so are decent document databases. It's hard to build even the smallest app w/o multiple data stores. Thinking about "data" as just databases is old hat and a bad idea.
+
+I feel like these "downsides" come from lots of experience in Windows (lack of automation and package management) plus IIS or Tomcat (horrible complexity); not a specific programming language or framework. I also think that the cloud drove home the idea of quality API's being everywhere for a lot of people. This plus the ease of use of new storage technologies like object and document (that actually work this time) stores resulted in a more stateless and distributed mindset in general.
+
+I think the gitlab omnimbus package is an interesting counter example to monoliths. It's a distributed architecture in a can that you can't make more than one of.
