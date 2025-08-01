@@ -120,3 +120,12 @@
 * Do we care about moving this to other hosting platforms
 * Does it need to scale up/down and/or in/out
 * Is it easy to deploy
+
+
+
+== Misc
+
+* Changes take too long to make.
+* When one area of the system is changed, other areas unexpectedly break.
+* Team members get in each other’s way when applying changes.
+* It takes too long for the system to start up.
